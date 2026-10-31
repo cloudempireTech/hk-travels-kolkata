@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" width="480" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F284E" />
+      <stop offset="100%" stop-color="#051022" />
+    </linearGradient>
+  </defs>
+  <!-- Sleek Winged Compass Crest -->
+  <rect x="10" y="10" width="80" height="80" rx="18" fill="url(#navyGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <path d="M 28 50 C 35 34, 65 34, 72 50 C 65 66, 35 66, 28 50 Z" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <polygon points="50,26 55,46 50,42 45,46" fill="#FDE68A" />
+  <polygon points="50,74 55,54 50,58 45,54" fill="#D4AF37" />
+  <circle cx="50" cy="50" r="5" fill="#D4AF37" stroke="#051022" stroke-width="1.5" />
+
+  <!-- Typography -->
+  <text x="106" y="52" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="34" font-weight="800" letter-spacing="2" fill="#FFFFFF">HK TRAVELS</text>
+  <text x="108" y="76" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="4" fill="#D4AF37">LUXURY FLEET &amp; CAR RENTAL</text>
+</svg>
